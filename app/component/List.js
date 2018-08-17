@@ -8,7 +8,7 @@ export default class List extends Component {
             <Text style={styles.listText}>{this.props.val.date}</Text>
             <Text style={styles.listText}>{this.props.val.list}</Text>
             <TouchableOpacity onPress={this.props.deleteMethod} style={styles.listDelete}>
-              <Text style={styles.listDeleteTexte}>X</Text>
+              <Text style={styles.listDeleteText}>X</Text>
             </TouchableOpacity>
           </View>
     )
